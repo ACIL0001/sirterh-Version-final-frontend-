@@ -77,11 +77,6 @@ export default function LoginPage() {
       <div className="max-w-md w-full">
         {/* Header */}
         <div className="text-center mb-8">
-          <img 
-            src="https://mocha-cdn.com/01987424-b707-7509-9ec8-32da1056e699/logo_anpt_02-(1).png" 
-            alt="ANPT Logo" 
-            className="h-16 w-auto mx-auto mb-4"
-          />
           <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent mb-2">
             SirteRH
           </h1>
