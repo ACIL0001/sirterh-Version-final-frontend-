@@ -35,10 +35,10 @@
     "wrangler": "^4.25.0"
   },
   "scripts": {
-    "build": "vite build",
+    "build": "npx vite build",
     "cf-typegen": "wrangler types",
-    "check": "tsc && vite build && wrangler deploy --dry-run",
-    "dev": "vite",
+    "check": "tsc && npx vite build && wrangler deploy --dry-run",
+    "dev": "npx vite",
     "lint": "eslint ."
   }
 }
